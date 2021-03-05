@@ -8,47 +8,23 @@
     <title>Live_Javascript</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body style="margin: 200px 200px auto; background-color:gray;">
+<body style="margin: 200px 200px auto; background-color:whitesmoke;" onload="">
     
             <div id="alert"></div>
 
+            <!-- Méthode 1 pour JS dans le fichier html -->
+            <!-- <script >
+              alert("Bonsoir Community FivePoints !!!");
+            </script> -->
+          <!-- Méthode 2 pour JS dans un fichier externe par exemple test.js -->
            
+          <button type="button" onclick="affichage()" class="btn btn-info">Click me !!</button>
 
-            <script>
-          
-          setTimeout(() => {
-              
-    //      let affiche=  `<div class="alert alert-success col-8" style="text-align:center;" role="alert">
-    //    Bonsoir Community FivePoints !!!!!!!!!!!!
-    //   </div>`;
 
-      let affiche=`<div class="alert alert-success" role="alert">
-  <h4 class="alert-heading " style="text-align:center">       Bonsoir Community FivePoints !!!</h4>
-  <p> <ol>
-                <li>JavaScript c'est quoi ?</li>
-                <li>historique Javascript!!!</li>
-                <li>ou ecricre notre code javascript(script): les 2 méthodes</li>
-                <li>DOM => document object Model</li>
-                <li>les fonctions syntaxe avec exemple afficher message Bonjour</li>
-                <li>exemple 1 (récuperer une valeure d'un input et l'afficher avec 2 méthodes:log et alert) dans html</li>
-                <li>exemple 2 (faire la somme de 2 entiers a et b ) fichier .js</li>
-                <li>les condition if else (paire ou impaire par exemple)</li>
-                <li>les boucles (for , foreach , map , filter ,find)</li>
-                <li>mini Projet.</li>
+ 
 
-            </ol>
-            </p>
-  <hr>
-  <p class="mb-0">Vous trouvez mon lien git: <a href="https://github.com/loumioussama/Javascript" class="alert-link">https://github.com/loumioussama/Javascript</a></p>
-</div>`
-
-      document.getElementById('alert').innerHTML=affiche
-     
-          },2000)
-          
-      </script>
-      
-
+      <script src="home.js"></script>
+<script src="test.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
