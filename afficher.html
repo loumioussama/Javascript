@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher</title>
+    <link rel="stylesheet" href="/css/mdb.min.css">
+
+</head>
+<body style="margin: 100px 300px auto; background-color:whitesmoke;" onload="home()">
+    <div id="alert"></div>
+    <div style=" margin: 100px 300px auto;">
+    <div class="card text-center">
+        <div class="card-header">Tapez une valeur</div>
+
+        <div class="card-body">
+          <div class="form-outline">
+            <input type="text" class="form-control" id="input1" placeholder="Message">
+            <label class="form-label"for="floatingInput">Votre Message</label>
+          </div> 
+          <div style="margin: 20px 10px auto;">
+            <button type="button" onclick="affichage1()" class="btn btn-primary">Alert !!</button>
+
+            <button type="button" onclick="affichage2()" class="btn btn-success">Console Log !!</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+            <script src="afficher.js"></script>
+          <script src="/js/mdb.min.js"></script>
+
+</body>
+</html>

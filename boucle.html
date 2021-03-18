@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucle</title>
+    <link rel="stylesheet" href="/css/mdb.min.css">
+
+</head>
+<body style="margin: 200px 200px auto; background-color:whitesmoke;" onload="home()">
+    <div id="alert"></div>
+    <div style=" margin: 100px 300px auto;">
+        <div class="card text-center">
+            <div class="card-header">Les Boucles</div>
+    
+            <div class="card-body">
+              <div class="form-outline">
+                <input type="number" class="form-control" id="input1" placeholder="a">
+                <label class="form-label"for="floatingInput">Donner un entier</label>
+              </div> 
+              <br>
+              
+              <div style="margin: 20px 10px auto;">
+                <button type="button" onclick="add()" class="btn btn-primary">Ajouter</button>
+    
+                <button type="button" onclick="effacer()" class="btn btn-danger">Retirer</button>
+                 
+                <button type="button" onclick="filtrer()" class="btn btn-success">filtrer x >10</button>
+
+                <button type="button" onclick="recherche()" class="btn btn-info">Find</button>
+
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+    <script src="boucle.js"></script>
+    <script src="/js/mdb.min.js"></script>
+
+</body>
+</html>

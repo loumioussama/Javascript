@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projet</title>
+    <link rel="stylesheet" href="/css/mdb.min.css">
+
+</head>
+<body style="margin: 200px 200px auto; background-color:whitesmoke;" onload="home()">
+    <div id="alert"></div>
+    <div style=" margin: 100px 300px auto;">
+    <div class="card text-center">
+        <div class="card-header">Remplir le formulaire</div>
+
+        <div class="card-body">
+          <div class="form-outline">
+            <input type="text" class="form-control" id="username" placeholder="Username">
+            <label class="form-label"for="floatingInput">Username</label>
+          </div><br>
+          <div class="form-outline">
+            <input type="email" class="form-control" id="email" placeholder="aaa@aa.com">
+            <label class="form-label"for="floatingInput">Email</label>
+          </div><br>
+          <div class="form-outline">
+            <input type="number" class="form-control" id="age" placeholder="30">
+            <label class="form-label"for="floatingInput">Age</label>
+          </div><br>
+          <div class="form-outline">
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <label class="form-label"for="floatingInput">Password</label>
+          </div> <br>
+          <div style="margin: 20px 10px auto;">
+            <button type="button" onclick="ajouter()" class="btn btn-primary">Ajouter</button>
+            <button type="button" onclick="afficher()" class="btn btn-info">List des Users</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="projet.js"></script>
+    <script src="/js/mdb.min.js"></script>
+
+</body>
+</html>

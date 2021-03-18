@@ -1,4 +1,4 @@
-alert("Bonsoir Community FivePoints !!!");
+// alert("Bonsoir Community FivePoints !!!");
 
 
 ////////// les fonctions en Javascript////////////////////
