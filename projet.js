@@ -14,6 +14,8 @@ function home() {
 var storage=JSON.parse(localStorage.getItem('USERS')) || [] ;
 
 function ajouter() {
+    let id=Math.floor(Math.random() *100);
+    console.log(id + "aaaaaaaaaaa");
     let email = document.getElementById('email').value;
     let username = document.getElementById('username').value;
     let age = document.getElementById('age').value;
@@ -21,6 +23,7 @@ function ajouter() {
 
     storage.push(
         {
+            id:id,
             username: username,
             email:email,
             age:Number(age),

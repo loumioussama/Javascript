@@ -33,6 +33,6 @@ function filtrer() {
 function recherche() {
     let input1 = document.getElementById('input1').value;
     let num=Number(input1);
-    let findTab=tab.find(x=>x==input1);
+    let findTab=tab.find(x=>x==num);
     console.log(findTab);
 }
